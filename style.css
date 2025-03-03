@@ -1,9 +1,9 @@
 :root {
-    --color-primary: #4B69FD;
+    --color-primary: #FF204E;
     --color-secondary: #FFF9EB;
     --color-tertiary: #C4C4C4;
-    --color-button: #fe652b;
-    --color-button-hover: #e55720;
+    --color-button: #2E0249;
+    --color-button-hover: #FF204E;
     --color-text: #444444;
     --color-white: #FFFFFF;
 }
@@ -131,13 +131,16 @@ ul {
     color: var(--color-text);
     font-family: "Inter", sans-serif;
     font-size: 18px;
-    margin: 20px 0;
+    margin: 40px;
+    font-weight: bold;
+    text-align: center;
 }
 
 .result-list {
     margin-top: 15px;
-    color: #05DF05;
-    font-size: 22px;
+    margin-bottom: 30px;
+    color: var(--color-primary);
+    font-size: 30px;
     font-weight: bold;
     text-align: center;
 }
